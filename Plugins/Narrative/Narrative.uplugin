@@ -1,0 +1,42 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.6.0",
+	"FriendlyName": "Narrative",
+	"Description": "A node based Quest and Dialogue editor that lets you make the games you want to make.",
+	"Category": "Quests & Dialogue",
+	"CreatedBy": "Reubs",
+	"CreatedByURL": "narrativetools.io",
+	"DocsURL": "https://docs.google.com/document/d/1ORhO0qG_x9TwCLlMs49UxxzfpWx1v3HMn-43w_msPmA/edit?usp=sharing",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/b03174e0a1cc4de4b17dcfb2a0ba6884",
+	"SupportURL": "mailto:contact@reubs.io",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Narrative",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "NarrativeQuestEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "NarrativeDialogueEditor",
+			"Type": "UncookedOnly",
+			"LoadingPhase": "PreDefault",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	]
+}
