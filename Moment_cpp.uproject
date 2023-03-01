@@ -31,15 +31,6 @@
 			"Name": "RuntimeDataTable",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/4c7c4f8d523f4c90b2e26d23502c526c"
-		},
-		{
-			"Name": "NiagaraUIRenderer",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/fd24d23ca57b4c59a4e4b7368da250bd",
-			"SupportedTargetPlatforms": [
-				"Win64",
-				"Android"
-			]
 		}
 	]
 }
