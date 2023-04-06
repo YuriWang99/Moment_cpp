@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	895422817	BGM_Beach			\Default Work Unit\BGM_Beach	
+	2633060887	BGM_Main			\Default Work Unit\BGM_Main	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	11533800	BGM_Main	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Static_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Main		12288144
+	654398393	BGM_Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Beach		6912144
+

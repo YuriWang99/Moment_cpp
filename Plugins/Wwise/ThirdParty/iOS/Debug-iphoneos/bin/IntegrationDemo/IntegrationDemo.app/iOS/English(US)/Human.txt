@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2952797154	Play_Hello			\Default Work Unit\Play_Hello	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	399670944	Hello	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\Voices\English(US)\Hello_D2174E6F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Hello		13459
+

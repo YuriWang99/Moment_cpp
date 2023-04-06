@@ -1,0 +1,16 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2266299534	Play_Sandstep			\3D_Audio_Demo\Play_Sandstep	
+	4057320454	Play_3D_Audio_Demo			\3D_Audio_Demo\Play_3D_Audio_Demo	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	154378389	waves	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\waves_CFC35146.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Spatialized Ambience\waves		362432
+	180276440	FS_Dirt_02	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\Footsteps\Dirt\FS_Dirt_02_E3B2A306.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Hero Sounds\Dirt_Footsteps\FS_Dirt_02		8740
+	325907009	seagull1	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\seagull1_28C92C86.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Spatialized Ambience\repeat_seagulls\seagulls\seagull1		136576
+	380879024	FS_Dirt_04	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\Footsteps\Dirt\FS_Dirt_04_E3B2A306.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Hero Sounds\Dirt_Footsteps\FS_Dirt_04		8308
+	443382262	FS_Dirt_01	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\Footsteps\Dirt\FS_Dirt_01_E3B2A306.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Hero Sounds\Dirt_Footsteps\FS_Dirt_01		7372
+	520833791	piano_quad	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\piano_quad_75453490.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Music\piano_quad	Composed & produced by Hugo Bédard	6768064
+	757197798	FS_Dirt_03	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\Footsteps\Dirt\FS_Dirt_03_E3B2A306.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Hero Sounds\Dirt_Footsteps\FS_Dirt_03		8920
+	992856116	seagull2	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\seagull2_28C92C86.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Spatialized Ambience\repeat_seagulls\seagulls\seagull2		169444
+	1007342877	seagull3	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\seagull3_28C92C86.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Spatialized Ambience\repeat_seagulls\seagulls\seagull3		32680
+	1069088662	seagull4	D:\Jenkins\ws\wwise_v2021.1\Wwise\SDK\samples\IntegrationDemo\WwiseProject\.cache\iOS\SFX\seagull4_28C92C86.wem		\Actor-Mixer Hierarchy\3D_Audio_Demo\Spatialized Ambience\repeat_seagulls\seagulls\seagull4		57448
+

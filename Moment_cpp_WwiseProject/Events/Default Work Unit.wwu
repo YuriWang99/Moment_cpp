@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8F7482C7-6160-4808-A812-7DC7662A0DBA}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8F7482C7-6160-4808-A812-7DC7662A0DBA}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="BGM_Main" ID="{6602EF3C-78DC-408F-9AFD-541ACE546FAB}">
+					<ChildrenList>
+						<Action Name="" ID="{80D02154-9BDE-46CD-973F-528FE1820C65}" ShortID="30238349">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Main" ID="{2A6877F0-63E0-4541-BD02-2166766B3E75}" WorkUnitID="{E691BEB6-2DC5-4D2D-BB72-B58BCD5623B8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{43F94E09-E5E3-403A-BCB1-E923B2FCBFCB}" ShortID="130240297">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Beach" ID="{8A74BBE7-1393-45E6-9C1E-52E15938A5CD}" WorkUnitID="{E691BEB6-2DC5-4D2D-BB72-B58BCD5623B8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_Beach" ID="{41C29114-8344-49BA-9976-8FEC644EF42C}">
+					<ChildrenList>
+						<Action Name="" ID="{2CF0C930-0621-4115-9847-E453609D70CF}" ShortID="261346293">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BGM_Beach" ID="{8A74BBE7-1393-45E6-9C1E-52E15938A5CD}" WorkUnitID="{E691BEB6-2DC5-4D2D-BB72-B58BCD5623B8}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

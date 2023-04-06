@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="412724365" Language="SFX" Hash="679933137">
+			<ObjectPath>\SoundBanks\Default Work Unit\BGM</ObjectPath>
+			<ShortName>BGM</ShortName>
+			<Path>BGM.bnk</Path>
+			<IncludedEvents>
+				<Event Id="895422817" Name="BGM_Beach" ObjectPath="\Events\Default Work Unit\BGM_Beach">
+					<IncludedMemoryFiles>
+						<File Id="654398393" Language="SFX">
+							<ShortName>TheMoment_Beach_v1_FULLMIX_demo.wav</ShortName>
+							<Path>SFX/TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2633060887" Name="BGM_Main" ObjectPath="\Events\Default Work Unit\BGM_Main">
+					<IncludedMemoryFiles>
+						<File Id="11533800" Language="SFX">
+							<ShortName>TheMoment_Static_v1_FULLMIX_demo.wav</ShortName>
+							<Path>SFX/TheMoment_Static_v1_FULLMIX_demo_10C4C929.wem</Path>
+						</File>
+						<File Id="654398393" Language="SFX">
+							<ShortName>TheMoment_Beach_v1_FULLMIX_demo.wav</ShortName>
+							<Path>SFX/TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3690994985">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

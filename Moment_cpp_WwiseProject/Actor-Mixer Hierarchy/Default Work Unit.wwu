@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E691BEB6-2DC5-4D2D-BB72-B58BCD5623B8}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{E691BEB6-2DC5-4D2D-BB72-B58BCD5623B8}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BGM_Beach" ID="{8A74BBE7-1393-45E6-9C1E-52E15938A5CD}" ShortID="789869312">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C2868DA-39B9-4229-8285-8448F9C41669}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97E45E0E-3566-46A8-88E9-5DE9D6E0E353}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{7FAB27C1-9E6A-46C0-9DCA-851DFB73C260}">
+							<Language>SFX</Language>
+							<AudioFile>TheMoment_Beach_v1_FULLMIX_demo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="654398393"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{7FAB27C1-9E6A-46C0-9DCA-851DFB73C260}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="BGM_Main" ID="{2A6877F0-63E0-4541-BD02-2166766B3E75}" ShortID="82368336">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{4C2868DA-39B9-4229-8285-8448F9C41669}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{97E45E0E-3566-46A8-88E9-5DE9D6E0E353}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{7B59E592-CE8A-4C70-AEC3-616D18B9FB44}">
+							<Language>SFX</Language>
+							<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="11533800"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{7B59E592-CE8A-4C70-AEC3-616D18B9FB44}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

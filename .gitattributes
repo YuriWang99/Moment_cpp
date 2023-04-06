@@ -1,2 +1,4 @@
 .a filter=lfs diff=lfs merge=lfs -text
 .prof filter=lfs diff=lfs merge=lfs -text
+ProfilingSession1.prof filter=lfs diff=lfs merge=lfs -text
+libAkSoundEngine.a filter=lfs diff=lfs merge=lfs -text
