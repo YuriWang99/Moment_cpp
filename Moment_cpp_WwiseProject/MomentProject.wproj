@@ -862,12 +862,12 @@
 						</Property>
 						<Property Name="GenerateMultipleBanks" Type="bool">
 							<ValueList>
-								<Value>False</Value>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="GenerateSoundBankJSON" Type="bool">
 							<ValueList>
-								<Value>False</Value>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="GenerateSoundBankXML" Type="bool">
@@ -922,7 +922,7 @@
 						</Property>
 						<Property Name="SoundBankGenerateEstimatedDuration" Type="bool">
 							<ValueList>
-								<Value>False</Value>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SoundBankGenerateHeaderFile" Type="bool">
@@ -932,12 +932,12 @@
 						</Property>
 						<Property Name="SoundBankGenerateMaxAttenuationInfo" Type="bool">
 							<ValueList>
-								<Value>False</Value>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SoundBankGeneratePrintGUID" Type="bool">
 							<ValueList>
-								<Value>False</Value>
+								<Value>True</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SoundBankGenerateReadableFile" Type="bool">
@@ -11747,6 +11747,9 @@
 				</PhysicalFolder>
 				<PhysicalFolder Path="SoundBanks">
 					<WorkUnit Name="SoundBanks" ID="{C98E673F-A24C-48A8-960F-10565FFE70A0}" PersistMode="Standalone"/>
+				</PhysicalFolder>
+				<PhysicalFolder Path="SoundBanks\English(US)">
+					<WorkUnit Name="English(US)" ID="{7CB65497-CAB3-4009-9F7B-85C8DF5A2578}" PersistMode="Standalone"/>
 				</PhysicalFolder>
 				<PhysicalFolder Path="Soundcaster Sessions">
 					<WorkUnit Name="Soundcaster Sessions" ID="{4C96B38B-3DB4-40C7-91C9-665510E38993}" PersistMode="Standalone"/>

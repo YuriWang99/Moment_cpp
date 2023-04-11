@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{FC8A9E2D-B175-4505-9803-30E1B837E786}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{FC8A9E2D-B175-4505-9803-30E1B837E786}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{FC8A9E2D-B175-4505-9803-30E1B837E786}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="BGM" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" ShortID="941229812">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{FE2D0D81-3726-468B-93C7-16EAA66F00DF}">
+							<Language>SFX</Language>
+							<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1027439445"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{FE2D0D81-3726-468B-93C7-16EAA66F00DF}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
