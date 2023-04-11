@@ -14,3 +14,6 @@ Saved
 *.xcworkspace
 Content/Windmills/Maps/Windmills_Demo_BuiltData.uasset
 Content/Moment/light_test_BuiltData.uasset
+Plugins/Wwise/ThirdParty/Mac/
+Plugins/Wwise/ThirdParty/IOS/
+Plugins/Wwise/ThirdParty/tvOS/
