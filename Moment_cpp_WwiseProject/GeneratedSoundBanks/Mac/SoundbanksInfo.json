@@ -1,0 +1,38 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/",
+   "SourceFilesRoot": "/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/.cache/Mac/",
+   "SoundBanksRoot": "/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Mac/",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Mac"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1279556256",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   },
+   {
+    "Id": "2043057619",
+    "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
+    "Language": "SFX",
+    "Hash": "1088468749",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
+    "ShortName": "SoundBank_bgm",
+    "Path": "SoundBank_bgm.bnk"
+   }
+  ]
+ }
+}

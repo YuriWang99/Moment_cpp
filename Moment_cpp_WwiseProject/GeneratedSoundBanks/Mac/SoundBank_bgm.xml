@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="2043057619" GUID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}" Language="SFX" Hash="1088468749">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_bgm</ObjectPath>
+			<ShortName>SoundBank_bgm</ShortName>
+			<Path>SoundBank_bgm.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
