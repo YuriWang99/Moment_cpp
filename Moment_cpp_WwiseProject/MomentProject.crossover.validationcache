@@ -1,46 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="103">
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\States\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Queries\Factory Queries.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Factory Reflect.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\MomentProject.wproj" DateLow="1681245374" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Events\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Reflect.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Mastering Suite.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Filters.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Dynamics.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Delay.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Box Modeler.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Effects.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Auro Headphone.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1681244453" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1681244453" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\States\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Queries\Factory Queries.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Factory Reflect.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Presets\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\MomentProject.wproj" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\MomentProject.crossover.wsettings" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Modulators\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Events\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Reflect.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory McDSP Effects.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Mastering Suite.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Filters.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Dynamics.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Delay.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory iZotope Box Modeler.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Effects.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Factory Auro Headphone.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Conversion Settings\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1682017123" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1682017123" DateHigh="0"/>
 </ValidationCache>
