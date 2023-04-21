@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2043057619" GUID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}" Language="SFX" Hash="1267386264">
+		<SoundBank Id="2043057619" GUID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}" Language="SFX" Hash="3779425687">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_bgm</ObjectPath>
 			<ShortName>SoundBank_bgm</ShortName>
 			<Path>SoundBank_bgm.bnk</Path>
@@ -25,6 +25,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="4201596776" Name="UI_Bubble" ObjectPath="\Events\Default Work Unit\UI_Bubble" GUID="{CAEF6258-C719-4FFE-B6C1-E4B9DFA93027}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI_Click" GUID="{C2A484A0-24C1-4673-9DCC-66C15151156F}" DurationType="OneShot" DurationMin="7.581633" DurationMax="7.581633">
 					<IncludedMemoryFiles>
 						<File Id="587445268" Language="SFX">

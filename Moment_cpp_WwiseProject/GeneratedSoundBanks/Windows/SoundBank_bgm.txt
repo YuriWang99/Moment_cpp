@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	441552802	UI_Switch			\Default Work Unit\UI_Switch	
 	2249769530	UI_Click			\Default Work Unit\UI_Click	
 	2774129122	UI_Select			\Default Work Unit\UI_Select	
+	4201596776	UI_Bubble			\Default Work Unit\UI_Bubble	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	412724365	BGM			\Default Work Unit\BGM	

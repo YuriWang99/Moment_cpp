@@ -55,7 +55,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "1267386264",
+    "Hash": "3779425687",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -80,6 +80,16 @@
         "Path": "SFX/TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem"
        }
       ]
+     },
+     {
+      "Id": "4201596776",
+      "Name": "UI_Bubble",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI_Bubble",
+      "GUID": "{CAEF6258-C719-4FFE-B6C1-E4B9DFA93027}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2249769530",
