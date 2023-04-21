@@ -8,10 +8,56 @@
 		<ExternalSourcesOutputRoot>/Users/yalinzhang/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Moment_cpp/Moment_cpp_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="2043057619" GUID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}" Language="SFX" Hash="1088468749">
+		<SoundBank Id="2043057619" GUID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}" Language="SFX" Hash="1267386264">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank_bgm</ObjectPath>
 			<ShortName>SoundBank_bgm</ShortName>
 			<Path>SoundBank_bgm.bnk</Path>
+			<IncludedEvents>
+				<Event Id="412724365" Name="BGM" ObjectPath="\Events\Default Work Unit\BGM" GUID="{D13FAAB8-78B2-4EC5-8FCD-6A8FC1805828}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="410304512" Language="SFX">
+							<ShortName>TheMoment_Beach_v1_FULLMIX_demo.wav</ShortName>
+							<Path>SFX/TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1027439445" Language="SFX">
+							<ShortName>TheMoment_Static_v1_FULLMIX_demo.wav</ShortName>
+							<Path>SFX/TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2249769530" Name="UI_Click" ObjectPath="\Events\Default Work Unit\UI_Click" GUID="{C2A484A0-24C1-4673-9DCC-66C15151156F}" DurationType="OneShot" DurationMin="7.581633" DurationMax="7.581633">
+					<IncludedMemoryFiles>
+						<File Id="587445268" Language="SFX">
+							<ShortName>Click.wav</ShortName>
+							<Path>SFX/Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2774129122" Name="UI_Select" ObjectPath="\Events\Default Work Unit\UI_Select" GUID="{46B8D2D3-EA7C-486A-B8AA-4DD0A3006C47}" DurationType="OneShot" DurationMin="0.08059" DurationMax="0.08059">
+					<IncludedMemoryFiles>
+						<File Id="916720355" Language="SFX">
+							<ShortName>DialogueSelectFemale.wav</ShortName>
+							<Path>SFX/DialogueSelectFemale_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="16132022" Name="UI_Select_Avatar" ObjectPath="\Events\Default Work Unit\UI_Select_Avatar" GUID="{99053812-ED32-4F0C-884C-5761342A8AF3}" DurationType="OneShot" DurationMin="0.589292" DurationMax="0.589292">
+					<IncludedMemoryFiles>
+						<File Id="901772933" Language="SFX">
+							<ShortName>DialogueSelectMale.wav</ShortName>
+							<Path>SFX/DialogueSelectMale_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="441552802" Name="UI_Switch" ObjectPath="\Events\Default Work Unit\UI_Switch" GUID="{D7240887-DE63-46A8-B18C-B37C95608E87}" DurationType="OneShot" DurationMin="7.581633" DurationMax="7.581633">
+					<IncludedMemoryFiles>
+						<File Id="509557042" Language="SFX">
+							<ShortName>Switch.wav</ShortName>
+							<Path>SFX/Switch_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
