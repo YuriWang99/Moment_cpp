@@ -1,0 +1,27 @@
+Event	ID	Name			Wwise Object Path	Notes
+	16132022	UI_Select_Avatar			\Default Work Unit\UI_Select_Avatar	
+	412724365	BGM			\Default Work Unit\BGM	
+	441552802	UI_Switch			\Default Work Unit\UI_Switch	
+	2249769530	UI_Click			\Default Work Unit\UI_Click	
+	2774129122	UI_Select			\Default Work Unit\UI_Select	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	412724365	BGM			\Default Work Unit\BGM	
+
+State	ID	Name	State Group			Notes
+	748895195	None	BGM			
+	2659683324	Main_Room	BGM			
+	4075332698	Beach	BGM			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	227847101	Main_Room	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM_Beach		
+	727957231	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM_Main		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	410304512	BGM_Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Beach		6912144
+	509557042	UI_Switch	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Switch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Switch		1337464
+	587445268	UI_Click	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Click		1337464
+	901772933	UI_Select_M	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\DialogueSelectMale_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Select_M		113272
+	916720355	UI_Select_F	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\DialogueSelectFemale_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Select_F		7172
+	1027439445	BGM_Main	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Main		12288144
+
