@@ -3,29 +3,1068 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{FC8A9E2D-B175-4505-9803-30E1B837E786}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="BGM" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" ShortID="941229812">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
-						</Reference>
-					</ReferenceList>
+				<Folder Name="UIs" ID="{C354D198-B9EB-41FD-A2DE-C819C27018CB}" ShortID="155428032">
 					<ChildrenList>
-						<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{FE2D0D81-3726-468B-93C7-16EAA66F00DF}">
-							<Language>SFX</Language>
-							<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1027439445"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<Sound Name="S_SwitchHoldTriggered" ID="{A27F6645-28CA-4271-81A9-76EC4B401576}" ShortID="35252370">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Hold" ID="{FF377231-188D-4D93-AB21-7ABF69F9CC25}">
+									<Language>SFX</Language>
+									<AudioFile>Hold.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="785491875"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Hold" ID="{FF377231-188D-4D93-AB21-7ABF69F9CC25}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SCancelConfirmObject" ID="{B43771A2-0DFA-4FDF-8270-DDFBE7E17F11}" ShortID="312298958">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="select2" ID="{AFE2CE0C-68A7-4029-B571-9AA85CDE2576}">
+									<Language>SFX</Language>
+									<AudioFile>select2.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="513274941"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="select2" ID="{AFE2CE0C-68A7-4029-B571-9AA85CDE2576}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SConfirmObject" ID="{3AD3FBCC-F840-4DCA-AAB7-3EE71BA59043}" ShortID="1001440707">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="select" ID="{D8AECC50-1E44-43DE-969D-C194D9BDFCE6}">
+									<Language>SFX</Language>
+									<AudioFile>select.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="966922745"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="select" ID="{D8AECC50-1E44-43DE-969D-C194D9BDFCE6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SCurrentMood" ID="{79034961-0C26-4DEF-93E2-6072EF5C0EEE}" ShortID="577230775">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="MoodChangHint" ID="{6C2C3ADE-D95E-4890-8F4B-7AAAD73A1E36}">
+									<Language>SFX</Language>
+									<AudioFile>MoodChangHint.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="802289686"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="MoodChangHint" ID="{6C2C3ADE-D95E-4890-8F4B-7AAAD73A1E36}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SFirstTaskWin" ID="{5BC22CB7-BF3D-4C80-87B3-440D2069C723}" ShortID="862110333">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Complete" ID="{ACC2EFF6-EA87-4903-8FB7-6DDE5274D7EE}">
+									<Language>SFX</Language>
+									<AudioFile>Complete.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="994354103"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Complete" ID="{ACC2EFF6-EA87-4903-8FB7-6DDE5274D7EE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SheartExplosion" ID="{F2A30344-1573-4B34-81AE-145CF1C32D9A}" ShortID="615228003">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-36</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="heartBroken" ID="{C77A81EB-F393-4F1A-A686-EB15B77B2DE4}">
+									<Language>SFX</Language>
+									<AudioFile>heartBroken.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="493800215"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="heartBroken" ID="{C77A81EB-F393-4F1A-A686-EB15B77B2DE4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Shoot_Heart" ID="{91F9C6F6-6F7F-4094-99D1-03F82B22F1B5}" ShortID="1073157933">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="heartShoot" ID="{09B487C0-25E1-4E85-9E0C-E327225AC8B5}">
+									<Language>SFX</Language>
+									<AudioFile>heartShoot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="288415330"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="heartShoot" ID="{09B487C0-25E1-4E85-9E0C-E327225AC8B5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SubtitleEnd" ID="{6D9C0072-007E-4A42-84D0-DBD0FE307454}" ShortID="1044386747">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NextLine" ID="{852B34CB-4F84-4C3C-88BB-D012F6EDE5F9}">
+									<Language>SFX</Language>
+									<AudioFile>NextLine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="414890874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NextLine" ID="{852B34CB-4F84-4C3C-88BB-D012F6EDE5F9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SubtitleNextLine" ID="{B8DEDC2A-6CFA-4A94-ACB8-F99A1ADD046C}" ShortID="186137111">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="NextLine" ID="{5CC71CAD-9FBC-41F3-8ABD-D88159C67374}">
+									<Language>SFX</Language>
+									<AudioFile>NextLine.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="414890874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="NextLine" ID="{5CC71CAD-9FBC-41F3-8ABD-D88159C67374}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="SUnlockNewNPC" ID="{2EA6DDDF-5968-4140-9A88-8DD82013A15C}" ShortID="280965078">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-18</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="UnlockAvatar" ID="{1BBA1770-8223-4984-88F8-385BC8C2BD97}">
+									<Language>SFX</Language>
+									<AudioFile>UnlockAvatar.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="521902732"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="UnlockAvatar" ID="{1BBA1770-8223-4984-88F8-385BC8C2BD97}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{FE2D0D81-3726-468B-93C7-16EAA66F00DF}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
+				<Folder Name="BGM" ID="{4C9FC3C7-3106-4216-893E-722B4EBE3585}" ShortID="1050139691">
+					<ChildrenList>
+						<Sound Name="Beach" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" ShortID="941229812">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{A85488A3-26B5-490F-BAB2-86DB60DF2FFB}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Beach_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="877525911"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{633169FE-0E26-4E55-9DC4-9A23B589C806}" ShortID="561951325">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-85"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{8083D1E4-B245-40AF-9E70-E9262B9688C2}" ShortID="729529471"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{25A73B20-90AC-437A-8B00-56879A268FA1}" ShortID="1044855925">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{A97902F7-92D1-4611-8230-C5E25A7C9DBF}" ShortID="397576312">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{7C965902-150C-4A0E-84C3-F7CACD825094}" ShortID="1051649588"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{D25D2C35-CC28-409A-B3E1-6C96F0A3F459}" ShortID="552861201">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{2615206C-9BCB-4E9A-8074-4966D9043AA1}" ShortID="558844538">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-85"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{F6908FD6-699B-454C-811B-BF1AB02C38EA}" ShortID="803234697">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{A85488A3-26B5-490F-BAB2-86DB60DF2FFB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Duck" ID="{C54FAA4F-074A-4225-BE75-0A49F6A24C75}" ShortID="134781701">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{99110847-36F5-4CBF-93E3-F8A220644B8E}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027439445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{4E08FE11-9163-4A4A-88DF-AB72792F1A94}" ShortID="617766263">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{A93DC220-30B3-4D27-97AE-1A2959E2FBF4}" ShortID="480533804">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{3BD35451-693D-4E46-9A32-F2A7606BCEAA}" ShortID="520261620">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{0C85D5B9-88E8-4775-BAA3-8DA22070065D}" ShortID="842005668">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{BDA6769E-750D-4017-BDC9-790FF54AECE0}" ShortID="806205592">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{3FB8D1D7-AB6A-45C6-9D5C-ECE76509BE1F}" ShortID="47673458"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{0C1B00CB-3467-412A-BA8F-2C72E39EF589}" ShortID="584772247">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{C728FB0F-87C0-41C4-8476-486EF91D4C1A}" ShortID="852140820">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{99110847-36F5-4CBF-93E3-F8A220644B8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Turtle" ID="{05AA85DF-5ED0-4AB8-95B2-FA4022A9F8DC}" ShortID="222103699">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{E71FB401-175D-444F-860A-368E303F7CEB}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Beach_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="141531934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{84FCE790-8585-410A-AA32-9F870E2CFCF6}" ShortID="194233412">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{D57C62DA-C2B7-478D-BF6F-5F27213A1BC8}" ShortID="463751185"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{2706F1A3-2DB3-4ED9-AEFA-2E9D0609032C}" ShortID="747194526">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{23FE679D-C8E1-4222-BC2C-3E0DA8BD1E9A}" ShortID="184613533">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{EF810B9C-009A-4051-9D29-A6ED7219FC10}" ShortID="359748977">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{1232ED12-7094-4304-8C5A-C4FF9772EE30}" ShortID="250487993">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{49117D7C-9FED-4576-95E5-40C34C8FF51D}" ShortID="889805530">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{02630C2A-536E-4DC5-B27E-7518171C1C80}" ShortID="497758508">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Beach_v1_FULLMIX_demo" ID="{E71FB401-175D-444F-860A-368E303F7CEB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boss" ID="{BDF89191-FFD4-4B46-AD25-8FF730398D66}" ShortID="430965690">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LikeABoss" ID="{47EC08AF-71EB-4C1D-961B-0F35DE62588D}">
+									<Language>SFX</Language>
+									<AudioFile>LikeABoss.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597012795"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{59AC0459-B8FB-47CB-8FD2-0577CE726276}" ShortID="809015386">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{A4B8B0A6-9CC6-4D8D-8655-562CDBD3627F}" ShortID="697473858">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{37237979-4005-43E1-9408-7F88A5F2A15E}" ShortID="922530638"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{94AC6770-5D88-4884-9AF0-B9D5F315E94F}" ShortID="789108541">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{C06EF62E-53AD-4353-AF8E-46818703C5CF}" ShortID="430515300">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{8510049E-CA38-4209-9344-27C27F930463}" ShortID="298723686">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="94"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{0EA0A336-8CA1-40EA-8988-F3AD477F3FAB}" ShortID="281025755">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="99"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{E7E9617C-C819-4CAB-95B8-67F59704FC51}" ShortID="861979883">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16" Value="100"/>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LikeABoss" ID="{47EC08AF-71EB-4C1D-961B-0F35DE62588D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ace" ID="{170143DB-060C-4B96-93C1-6ED79EE29842}" ShortID="923115988">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LikeABoss" ID="{1BEED896-7E67-495E-B5B5-961C87580549}">
+									<Language>SFX</Language>
+									<AudioFile>LikeABoss.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="597012795"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{8DE2E7AB-E779-431D-B5BD-C0ED19DD3F0E}" ShortID="763938213">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{C63162C8-FF5C-4CE0-8BFF-E042746A148D}" ShortID="1034862470">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{4205A9B8-4025-42E5-A2B3-266F4697B195}" ShortID="655464998">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{F6439CBE-2AF0-4388-99F0-0EBD7D1A6B56}" ShortID="773751153">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{32DA2585-52B7-4DBC-B4E1-8C32B6C1F0DE}" ShortID="68734294">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{7AC379B3-BCFB-4E86-83FD-7C7DA88ECBC4}" ShortID="978436477">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{DFDAAD70-DF81-477C-AF6E-AC888728DE7B}" ShortID="659186028">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{35651DF0-0BE9-4F10-AF48-729F231B878E}" ShortID="605641435"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LikeABoss" ID="{1BEED896-7E67-495E-B5B5-961C87580549}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Bad" ID="{2B4C75C7-40C1-443B-A72A-52AE7D9AE9C9}" ShortID="1064859000">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{B92743D6-1EC5-45F4-B2DF-990C634E27DC}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027439445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{81059A37-DF45-4EF6-B53A-A56C06BE446D}" ShortID="366197936">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{6685F683-0366-45F5-BF5F-B554E0D9FE99}" ShortID="1004586138">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{8398B72F-4078-4C9E-90B9-A07E9F860A4E}" ShortID="570957135">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{6C665A21-098B-4A60-83FA-A596245AD8EA}" ShortID="802066015"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{0F681EBB-1241-4E40-A368-70B1722B992B}" ShortID="414956735">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{FE0B05D4-84B1-4AAA-BF4B-4D2E9AF3D6C5}" ShortID="66061189">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{BADE2804-7D4D-4B37-8F8E-8AF8B854C490}" ShortID="243450797">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{E48354CF-38C0-4DA0-A77C-9BB60BBFA7AC}" ShortID="575074217">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{B92743D6-1EC5-45F4-B2DF-990C634E27DC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Boring" ID="{099EC1F4-D115-403A-B559-FD1274734604}" ShortID="471647645">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{F34464FF-2013-4085-AE31-AA365DA93C4D}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Static_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1027439445"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{626355A4-F557-4A47-BF89-48B0EB1E6C29}" ShortID="154327853"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{AEE6C547-B18E-428D-B1D8-0088D0CACC3C}" ShortID="673792362">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-85"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{FFC1EF35-C775-4C36-AF2C-F7513FFA2304}" ShortID="674890382">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{0A9B9192-532E-466C-B426-A89CFB1F9298}" ShortID="681852594">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{8036C018-B7AA-4246-8D6E-27C739AAC410}" ShortID="545266389">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{66CAE102-E276-4D70-9C7D-C448992F8CE6}" ShortID="562349271">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{84872880-F3E7-4156-BEA0-37E6D9FC917B}" ShortID="195089054">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{8D4C8738-DF02-423F-A9FF-E9AA8A5D02F2}" ShortID="191198936">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Static_v1_FULLMIX_demo" ID="{F34464FF-2013-4085-AE31-AA365DA93C4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Me" ID="{8AF0605E-8ABA-4DE7-9836-DAFB807FDAA5}" ShortID="809123703">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{7A4EBD46-49CB-46C2-9695-B5A53C50BCAF}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{D3C13408-D8BC-44A4-ABAB-C6EECA79AB81}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TheMoment_Anxiety_v1_FULLMIX_demo" ID="{912D30C1-5916-4F6E-A2E0-9283DB1AAE5B}">
+									<Language>SFX</Language>
+									<AudioFile>TheMoment_Anxiety_v1_FULLMIX_demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="129242008"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="BGM" ID="{96F11ABA-55FA-4016-862A-4F00974ABD58}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="BoringWorker" ID="{C6EC3D1A-4B67-41AB-B8E1-0B0F2562F660}"/>
+										<CustomState Name="" ID="{BCBD87A8-E9AC-4DF9-B9C7-B77304598836}" ShortID="104074198">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Turtle" ID="{8435B0D6-CA4E-4337-A33D-2C4E2DCFC8FC}"/>
+										<CustomState Name="" ID="{6B1F124E-B598-4D77-A275-F527C74488FA}" ShortID="334402019">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Boss" ID="{CAD3A473-86C0-4417-98F7-A15F8A60BF65}"/>
+										<CustomState Name="" ID="{E2544A34-67FE-4BAE-ABCB-15838AF9BE24}" ShortID="436165119">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Badworker" ID="{BF10F8AE-D337-471E-9837-06D6C6EB9331}"/>
+										<CustomState Name="" ID="{47BED260-B65E-4BE0-AFC9-EF90506FD545}" ShortID="281961749">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Beach" ID="{ACEF9BC7-DB5D-4BB8-8A85-98F00F2162B7}"/>
+										<CustomState Name="" ID="{783FEDF0-B0DA-4DDB-A4C3-9F3BCABBF70E}" ShortID="667838271">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ToyDuck" ID="{DDC69D2D-B826-4C22-AB03-19C90D088CD6}"/>
+										<CustomState Name="" ID="{EEF141F6-F620-4DDE-BF04-B00E8B83A006}" ShortID="828913202">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Me" ID="{A35C5E59-8A7B-4C84-A80D-FB6B153A28F2}"/>
+										<CustomState Name="" ID="{FA8FD964-9119-41D8-982C-146BD0E50BC5}" ShortID="1044477345"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Aceworker" ID="{54719FA2-1BFB-4FCE-922B-593F0561E0FE}"/>
+										<CustomState Name="" ID="{005F7443-3B98-443F-A260-B89C8C9B2679}" ShortID="603611408">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="TheMoment_Anxiety_v1_FULLMIX_demo" ID="{912D30C1-5916-4F6E-A2E0-9283DB1AAE5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
