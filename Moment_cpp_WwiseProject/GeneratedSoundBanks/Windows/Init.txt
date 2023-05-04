@@ -3,13 +3,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 
 State	ID	Name	State Group			Notes
 	748895195	None	BGM			
-	1065665476	ToyDuck	BGM			
-	1560169506	Boss	BGM			
-	1685527059	Me	BGM			
-	2054980567	Turtle	BGM			
-	3205888596	Badworker	BGM			
-	3444895012	BoringWorker	BGM			
-	4011820636	Aceworker	BGM			
+	2659683324	Main_Room	BGM			
 	4075332698	Beach	BGM			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes

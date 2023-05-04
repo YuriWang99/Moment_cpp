@@ -1,100 +1,28 @@
 Event	ID	Name			Wwise Object Path	Notes
-	148697475	SUnlockNewNPC			\Default Work Unit\UIs\SUnlockNewNPC	
+	16132022	UI_Select_Avatar			\Default Work Unit\UI_Select_Avatar	
 	412724365	BGM			\Default Work Unit\BGM	
-	1150639503	S_SwitchHoldTriggered			\Default Work Unit\UIs\S_SwitchHoldTriggered	
-	1260799209	SConfirmObject			\Default Work Unit\UIs\SConfirmObject	
-	2116061669	SFirstTaskWin			\Default Work Unit\UIs\SFirstTaskWin	
-	2584713319	SCancelConfirmObject			\Default Work Unit\UIs\SCancelConfirmObject	
-	2689154919	Shoot_Heart			\Default Work Unit\UIs\Shoot_Heart	
-	3142291400	SubtitleNextLine			\Default Work Unit\UIs\SubtitleNextLine	
-	3288880821	SheartExplosion			\Default Work Unit\UIs\SheartExplosion	
-	3655005168	SubtitleEnd			\Default Work Unit\UIs\SubtitleEnd	
-	3802711454	SCurrentMood			\Default Work Unit\UIs\SCurrentMood	
+	441552802	UI_Switch			\Default Work Unit\UI_Switch	
+	2249769530	UI_Click			\Default Work Unit\UI_Click	
+	2774129122	UI_Select			\Default Work Unit\UI_Select	
+	4201596776	UI_Bubble			\Default Work Unit\UI_Bubble	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	412724365	BGM			\Default Work Unit\BGM	
 
 State	ID	Name	State Group			Notes
 	748895195	None	BGM			
-	1065665476	ToyDuck	BGM			
-	1560169506	Boss	BGM			
-	1685527059	Me	BGM			
-	2054980567	Turtle	BGM			
-	3205888596	Badworker	BGM			
-	3444895012	BoringWorker	BGM			
-	4011820636	Aceworker	BGM			
+	2659683324	Main_Room	BGM			
 	4075332698	Beach	BGM			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	66061189	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	68734294	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	104074198	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	184613533	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	191198936	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	194233412	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	195089054	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	243450797	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	250487993	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	281025755	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	281961749	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	298723686	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	334402019	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	359748977	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	366197936	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	397576312	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	414956735	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	430515300	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	436165119	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	480533804	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	497758508	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	520261620	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	545266389	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	552861201	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	558844538	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	561951325	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	562349271	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	570957135	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	575074217	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	584772247	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	603611408	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	617766263	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	655464998	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	659186028	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	667838271	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	673792362	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	674890382	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	681852594	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
-	697473858	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	729529471	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	747194526	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	763938213	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	773751153	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	789108541	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	803234697	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
-	806205592	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	809015386	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	828913202	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	842005668	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	852140820	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	861979883	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
-	889805530	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	978436477	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	1004586138	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	1034862470	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	1044855925	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
+	227847101	Main_Room	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM_Beach		
+	727957231	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM_Main		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	129242008	Me	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Anxiety_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		6144144
-	288415330	Shoot_Heart	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\heartShoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\Shoot_Heart		352864
-	414890874	SubtitleNextLine	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\NextLine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleNextLine		352864
-	493800215	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\heartBroken_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		352864
-	513274941	SCancelConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\select2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCancelConfirmObject		352864
-	521902732	SUnlockNewNPC	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\UnlockAvatar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SUnlockNewNPC		352864
-	528110054	Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\LikeABoss_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		2293264
-	785491875	S_SwitchHoldTriggered	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Hold_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\S_SwitchHoldTriggered		352864
-	802289686	SCurrentMood	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\MoodChangHint_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCurrentMood		352864
-	877525911	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		6912144
-	966922745	SConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SConfirmObject		352864
-	994354103	SFirstTaskWin	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Complete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SFirstTaskWin		352864
-	1027439445	Duck	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Static_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		12288144
+	410304512	BGM_Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Beach		6912144
+	509557042	UI_Switch	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Switch_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Switch		1337464
+	587445268	UI_Click	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Click_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Click		1337464
+	901772933	UI_Select_M	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\DialogueSelectMale_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Select_M		113272
+	916720355	UI_Select_F	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\DialogueSelectFemale_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI_Select_F		7172
+	1027439445	BGM_Main	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM_Main		12288144
 
