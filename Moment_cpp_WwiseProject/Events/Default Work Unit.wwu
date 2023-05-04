@@ -8,12 +8,182 @@
 						<Action Name="" ID="{C86C35C5-C0FF-4961-B447-901EA6B76DEF}" ShortID="804038540">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="BGM" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+									<ObjectRef Name="Beach" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0162767-75BC-4DA7-8C6E-A72F2B456DBD}" ShortID="276018761">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boss" ID="{BDF89191-FFD4-4B46-AD25-8FF730398D66}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9CF2EDCC-EFC8-4E71-B46F-2BC75A84FD31}" ShortID="405582008">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ace" ID="{170143DB-060C-4B96-93C1-6ED79EE29842}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{DF00295F-41DD-4E6B-B7CF-AE9262D78DCA}" ShortID="343321329">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Bad" ID="{2B4C75C7-40C1-443B-A72A-52AE7D9AE9C9}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0F0581AD-3882-412B-82D9-4FF97A667DE3}" ShortID="19549854">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Beach" ID="{65656FE1-3A98-4C46-9C0C-ED752D9D7AC2}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{85E1CB98-4700-4DE6-97FF-AF1F22299582}" ShortID="520748796">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Boring" ID="{099EC1F4-D115-403A-B559-FD1274734604}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E0B9BC23-03E2-4C0A-B1B4-7B9ED8F76692}" ShortID="633466588">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Duck" ID="{C54FAA4F-074A-4225-BE75-0A49F6A24C75}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5AE0214A-A890-431D-89F5-0A5C163F8C71}" ShortID="308269006">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Me" ID="{8AF0605E-8ABA-4DE7-9836-DAFB807FDAA5}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FF142C0-05FA-482F-B656-E72E49BE1ABB}" ShortID="555163674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Turtle" ID="{05AA85DF-5ED0-4AB8-95B2-FA4022A9F8DC}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="UIs" ID="{E24094BA-31DA-4CEC-ADF9-7F642557A681}" ShortID="162787520">
+					<ChildrenList>
+						<Event Name="Shoot_Heart" ID="{73D013CE-7B6D-42FC-AC93-C24687E05DFB}">
+							<ChildrenList>
+								<Action Name="" ID="{0E810DDC-6796-48B3-8BC2-5F30F63B2F35}" ShortID="436419571">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Shoot_Heart" ID="{91F9C6F6-6F7F-4094-99D1-03F82B22F1B5}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SheartExplosion" ID="{1C65A72F-4705-4CC5-89BA-7EECA7019CDA}">
+							<ChildrenList>
+								<Action Name="" ID="{D47AB917-4D83-4960-873A-D529B1F5C98B}" ShortID="141256892">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SheartExplosion" ID="{F2A30344-1573-4B34-81AE-145CF1C32D9A}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SubtitleNextLine" ID="{52D32335-EFFD-4719-B734-39509ABCEA72}">
+							<ChildrenList>
+								<Action Name="" ID="{520AA806-FB0C-4F0A-AFA0-E93306B9BF7B}" ShortID="570931419">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SubtitleNextLine" ID="{B8DEDC2A-6CFA-4A94-ACB8-F99A1ADD046C}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SubtitleEnd" ID="{5EB54B85-9A8C-42E9-8514-E8DDB15512E9}">
+							<ChildrenList>
+								<Action Name="" ID="{A6A56734-35B1-4D26-B713-DF4F3489FC67}" ShortID="688126290">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SubtitleEnd" ID="{6D9C0072-007E-4A42-84D0-DBD0FE307454}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SConfirmObject" ID="{58BCE7B1-2F8F-49CD-AB65-08FCAF655061}">
+							<ChildrenList>
+								<Action Name="" ID="{E7C6FBF2-E28A-4541-9B69-D58C4E226522}" ShortID="973655297">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SConfirmObject" ID="{3AD3FBCC-F840-4DCA-AAB7-3EE71BA59043}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SCancelConfirmObject" ID="{0BC86659-913D-4AB1-94E0-9D49F15E7E93}">
+							<ChildrenList>
+								<Action Name="" ID="{084A443D-7466-4BDF-AAF4-0149AFB44AA7}" ShortID="86151971">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCancelConfirmObject" ID="{B43771A2-0DFA-4FDF-8270-DDFBE7E17F11}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SCurrentMood" ID="{40ED3A67-9122-448D-B895-B962F1F742A5}">
+							<ChildrenList>
+								<Action Name="" ID="{2C8AEFAD-1BDC-4779-A642-E4F0795C050B}" ShortID="720057659">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SCurrentMood" ID="{79034961-0C26-4DEF-93E2-6072EF5C0EEE}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFirstTaskWin" ID="{FDE32EF4-B998-4F13-9606-EE00ADA538CD}">
+							<ChildrenList>
+								<Action Name="" ID="{093A35FF-2A54-481D-9F16-2C79EE4F20EE}" ShortID="595708978">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SFirstTaskWin" ID="{5BC22CB7-BF3D-4C80-87B3-440D2069C723}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SUnlockNewNPC" ID="{B2C67689-4048-4992-A775-9E753E38267D}">
+							<ChildrenList>
+								<Action Name="" ID="{06BC44E9-A085-4575-B326-3B52C4644DEA}" ShortID="916028968">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SUnlockNewNPC" ID="{2EA6DDDF-5968-4140-9A88-8DD82013A15C}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="S_SwitchHoldTriggered" ID="{AF21C4FA-B244-44DD-B875-026F16012902}">
+							<ChildrenList>
+								<Action Name="" ID="{BF923321-B769-44A2-B534-A496E87F0091}" ShortID="687151978">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="S_SwitchHoldTriggered" ID="{A27F6645-28CA-4271-81A9-76EC4B401576}" WorkUnitID="{FC8A9E2D-B175-4505-9803-30E1B837E786}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

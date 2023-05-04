@@ -4,7 +4,20 @@
 		<WorkUnit Name="Default Work Unit" ID="{7501D3D7-180F-4184-A913-465C8696BD7F}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="SoundBank_bgm" ID="{186D94CF-69D3-4D6C-AF08-3931867F49FE}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="SubtitleEnd" ID="{5EB54B85-9A8C-42E9-8514-E8DDB15512E9}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Shoot_Heart" ID="{73D013CE-7B6D-42FC-AC93-C24687E05DFB}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SCurrentMood" ID="{40ED3A67-9122-448D-B895-B962F1F742A5}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="S_SwitchHoldTriggered" ID="{AF21C4FA-B244-44DD-B875-026F16012902}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SubtitleNextLine" ID="{52D32335-EFFD-4719-B734-39509ABCEA72}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SUnlockNewNPC" ID="{B2C67689-4048-4992-A775-9E753E38267D}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SConfirmObject" ID="{58BCE7B1-2F8F-49CD-AB65-08FCAF655061}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SCancelConfirmObject" ID="{0BC86659-913D-4AB1-94E0-9D49F15E7E93}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SheartExplosion" ID="{1C65A72F-4705-4CC5-89BA-7EECA7019CDA}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="UIs" ID="{E24094BA-31DA-4CEC-ADF9-7F642557A681}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BGM" ID="{D13FAAB8-78B2-4EC5-8FCD-6A8FC1805828}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SFirstTaskWin" ID="{FDE32EF4-B998-4F13-9606-EE00ADA538CD}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

@@ -3,8 +3,18 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{02516EC4-007A-4145-9A3C-8B38B1809FDD}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Downloads\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Downloads\Moment\"/>
+				<Property Name="Event Action List\{0BC86659-913D-4AB1-94E0-9D49F15E7E93}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1C65A72F-4705-4CC5-89BA-7EECA7019CDA}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{40ED3A67-9122-448D-B895-B962F1F742A5}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{52D32335-EFFD-4719-B734-39509ABCEA72}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{58BCE7B1-2F8F-49CD-AB65-08FCAF655061}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{5EB54B85-9A8C-42E9-8514-E8DDB15512E9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{73D013CE-7B6D-42FC-AC93-C24687E05DFB}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{AF21C4FA-B244-44DD-B875-026F16012902}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{B2C67689-4048-4992-A775-9E753E38267D}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D13FAAB8-78B2-4EC5-8FCD-6A8FC1805828}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FDE32EF4-B998-4F13-9606-EE00ADA538CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -24,7 +34,7 @@
 				<Property Name="General\SourceControlPluginID" Type="string" Value="{C403A906-0C19-4ED5-808E-748707065301}"/>
 				<Property Name="GenerateSoundBanks\x64_SelectedLanguages" Type="string" Value="BvDMKA=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="fhXzohUzMkSQEDWmvYOsSM5jF+9qIPVMuHVODS5jcvk="/>
-				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value=""/>
+				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="z5RtGNNpbE2vCDkxhn9J/g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{00000000-0000-0000-0000-000000000000}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>

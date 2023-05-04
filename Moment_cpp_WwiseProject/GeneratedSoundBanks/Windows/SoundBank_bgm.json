@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "3779425687",
+    "Hash": "1691688107",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -26,97 +26,203 @@
       "Name": "BGM",
       "ObjectPath": "\\Events\\Default Work Unit\\BGM",
       "GUID": "{D13FAAB8-78B2-4EC5-8FCD-6A8FC1805828}",
-      "DurationType": "Infinite",
+      "DurationType": "OneShot",
+      "DurationMin": "64.",
+      "DurationMax": "64.",
       "IncludedMemoryFiles": [
        {
-        "Id": "410304512",
+        "Id": "129242008",
+        "Language": "SFX",
+        "ShortName": "TheMoment_Anxiety_v1_FULLMIX_demo.wav",
+        "Path": "SFX/TheMoment_Anxiety_v1_FULLMIX_demo_10C4C929.wem"
+       },
+       {
+        "Id": "528110054",
+        "Language": "SFX",
+        "ShortName": "LikeABoss.wav",
+        "Path": "SFX/LikeABoss_10C4C929.wem"
+       },
+       {
+        "Id": "877525911",
         "Language": "SFX",
         "ShortName": "TheMoment_Beach_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem"
+        "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem"
        },
        {
         "Id": "1027439445",
         "Language": "SFX",
         "ShortName": "TheMoment_Static_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem"
+        "Path": "SFX/TheMoment_Static_v1_FULLMIX_demo_10C4C929.wem"
        }
       ]
      },
      {
-      "Id": "4201596776",
-      "Name": "UI_Bubble",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI_Bubble",
-      "GUID": "{CAEF6258-C719-4FFE-B6C1-E4B9DFA93027}",
-      "MaxAttenuation": "0.",
+      "Id": "1150639503",
+      "Name": "S_SwitchHoldTriggered",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\S_SwitchHoldTriggered",
+      "GUID": "{AF21C4FA-B244-44DD-B875-026F16012902}",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
-     },
-     {
-      "Id": "2249769530",
-      "Name": "UI_Click",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI_Click",
-      "GUID": "{C2A484A0-24C1-4673-9DCC-66C15151156F}",
-      "DurationType": "OneShot",
-      "DurationMin": "7.581633",
-      "DurationMax": "7.581633",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
       "IncludedMemoryFiles": [
        {
-        "Id": "587445268",
+        "Id": "785491875",
         "Language": "SFX",
-        "ShortName": "Click.wav",
-        "Path": "SFX/Click_10C4C929.wem"
+        "ShortName": "Hold.wav",
+        "Path": "SFX/Hold_10C4C929.wem"
        }
       ]
      },
      {
-      "Id": "2774129122",
-      "Name": "UI_Select",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI_Select",
-      "GUID": "{46B8D2D3-EA7C-486A-B8AA-4DD0A3006C47}",
+      "Id": "2584713319",
+      "Name": "SCancelConfirmObject",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SCancelConfirmObject",
+      "GUID": "{0BC86659-913D-4AB1-94E0-9D49F15E7E93}",
       "DurationType": "OneShot",
-      "DurationMin": "0.08059",
-      "DurationMax": "0.08059",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
       "IncludedMemoryFiles": [
        {
-        "Id": "916720355",
+        "Id": "513274941",
         "Language": "SFX",
-        "ShortName": "DialogueSelectFemale.wav",
-        "Path": "SFX/DialogueSelectFemale_10C4C929.wem"
+        "ShortName": "select2.wav",
+        "Path": "SFX/select2_10C4C929.wem"
        }
       ]
      },
      {
-      "Id": "16132022",
-      "Name": "UI_Select_Avatar",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI_Select_Avatar",
-      "GUID": "{99053812-ED32-4F0C-884C-5761342A8AF3}",
+      "Id": "1260799209",
+      "Name": "SConfirmObject",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SConfirmObject",
+      "GUID": "{58BCE7B1-2F8F-49CD-AB65-08FCAF655061}",
       "DurationType": "OneShot",
-      "DurationMin": "0.589292",
-      "DurationMax": "0.589292",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
       "IncludedMemoryFiles": [
        {
-        "Id": "901772933",
+        "Id": "966922745",
         "Language": "SFX",
-        "ShortName": "DialogueSelectMale.wav",
-        "Path": "SFX/DialogueSelectMale_10C4C929.wem"
+        "ShortName": "select.wav",
+        "Path": "SFX/select_10C4C929.wem"
        }
       ]
      },
      {
-      "Id": "441552802",
-      "Name": "UI_Switch",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI_Switch",
-      "GUID": "{D7240887-DE63-46A8-B18C-B37C95608E87}",
+      "Id": "3802711454",
+      "Name": "SCurrentMood",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SCurrentMood",
+      "GUID": "{40ED3A67-9122-448D-B895-B962F1F742A5}",
       "DurationType": "OneShot",
-      "DurationMin": "7.581633",
-      "DurationMax": "7.581633",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
       "IncludedMemoryFiles": [
        {
-        "Id": "509557042",
+        "Id": "802289686",
         "Language": "SFX",
-        "ShortName": "Switch.wav",
-        "Path": "SFX/Switch_10C4C929.wem"
+        "ShortName": "MoodChangHint.wav",
+        "Path": "SFX/MoodChangHint_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2116061669",
+      "Name": "SFirstTaskWin",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SFirstTaskWin",
+      "GUID": "{FDE32EF4-B998-4F13-9606-EE00ADA538CD}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "994354103",
+        "Language": "SFX",
+        "ShortName": "Complete.wav",
+        "Path": "SFX/Complete_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3288880821",
+      "Name": "SheartExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SheartExplosion",
+      "GUID": "{1C65A72F-4705-4CC5-89BA-7EECA7019CDA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "493800215",
+        "Language": "SFX",
+        "ShortName": "heartBroken.wav",
+        "Path": "SFX/heartBroken_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2689154919",
+      "Name": "Shoot_Heart",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\Shoot_Heart",
+      "GUID": "{73D013CE-7B6D-42FC-AC93-C24687E05DFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "288415330",
+        "Language": "SFX",
+        "ShortName": "heartShoot.wav",
+        "Path": "SFX/heartShoot_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3655005168",
+      "Name": "SubtitleEnd",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SubtitleEnd",
+      "GUID": "{5EB54B85-9A8C-42E9-8514-E8DDB15512E9}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "414890874",
+        "Language": "SFX",
+        "ShortName": "NextLine.wav",
+        "Path": "SFX/NextLine_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3142291400",
+      "Name": "SubtitleNextLine",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SubtitleNextLine",
+      "GUID": "{52D32335-EFFD-4719-B734-39509ABCEA72}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "414890874",
+        "Language": "SFX",
+        "ShortName": "NextLine.wav",
+        "Path": "SFX/NextLine_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "148697475",
+      "Name": "SUnlockNewNPC",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SUnlockNewNPC",
+      "GUID": "{B2C67689-4048-4992-A775-9E753E38267D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "521902732",
+        "Language": "SFX",
+        "ShortName": "UnlockAvatar.wav",
+        "Path": "SFX/UnlockAvatar_10C4C929.wem"
        }
       ]
      }
