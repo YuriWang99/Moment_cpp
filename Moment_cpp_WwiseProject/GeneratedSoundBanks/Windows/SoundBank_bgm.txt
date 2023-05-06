@@ -4,11 +4,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	1150639503	S_SwitchHoldTriggered			\Default Work Unit\UIs\S_SwitchHoldTriggered	
 	1260799209	SConfirmObject			\Default Work Unit\UIs\SConfirmObject	
 	2116061669	SFirstTaskWin			\Default Work Unit\UIs\SFirstTaskWin	
+	2317248900	PlayerDialogue			\Default Work Unit\UIs\PlayerDialogue	
 	2584713319	SCancelConfirmObject			\Default Work Unit\UIs\SCancelConfirmObject	
 	2689154919	Shoot_Heart			\Default Work Unit\UIs\Shoot_Heart	
 	3142291400	SubtitleNextLine			\Default Work Unit\UIs\SubtitleNextLine	
 	3288880821	SheartExplosion			\Default Work Unit\UIs\SheartExplosion	
+	3356391884	FallInLoveSFX			\Default Work Unit\UIs\FallInLoveSFX	
 	3655005168	SubtitleEnd			\Default Work Unit\UIs\SubtitleEnd	
+	3662290070	CancelInLove			\Default Work Unit\UIs\CancelInLove	
 	3802711454	SCurrentMood			\Default Work Unit\UIs\SCurrentMood	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -83,16 +86,19 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1044855925	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	92707837	SubtitleEnd	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SobjectInteract_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleEnd		155000
 	129242008	Me	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Anxiety_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		6144144
 	141531934	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		6912144
 	288415330	Shoot_Heart	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\heartShoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\Shoot_Heart		352864
 	414890874	SubtitleNextLine	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\NextLine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleNextLine		352864
-	493800215	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\heartBroken_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		352864
 	513274941	SCancelConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\select2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCancelConfirmObject		352864
 	521902732	SUnlockNewNPC	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\UnlockAvatar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SUnlockNewNPC		352864
 	597012795	Boss	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\LikeABoss_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		2293264
+	627168718	FallInLoveSFX	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\FallInLoveSFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\FallInLoveSFX		9025388
+	785318808	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SHeartExplode_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		9025388
 	785491875	S_SwitchHoldTriggered	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Hold_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\S_SwitchHoldTriggered		352864
 	802289686	SCurrentMood	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MoodChangHint_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCurrentMood		352864
+	836435091	PlayerDialogue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\PlayerDialogue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\PlayerDialogue		97844
 	877525911	Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		6912144
 	966922745	SConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SConfirmObject		352864
 	994354103	SFirstTaskWin	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Complete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SFirstTaskWin		352864
