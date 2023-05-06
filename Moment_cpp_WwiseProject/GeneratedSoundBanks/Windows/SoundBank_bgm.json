@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "525522383",
+    "Hash": "1760052890",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -100,14 +100,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UIs\\PlayerDialogue",
       "GUID": "{D6464A6C-CD00-4340-8445-3C002EE6979C}",
       "DurationType": "OneShot",
-      "DurationMin": "0.508937",
-      "DurationMax": "0.508937",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
       "IncludedMemoryFiles": [
        {
-        "Id": "836435091",
+        "Id": "823127824",
         "Language": "SFX",
-        "ShortName": "PlayerDialogue.wav",
-        "Path": "SFX/PlayerDialogue_10C4C929.wem"
+        "ShortName": "MyDialogue.wav",
+        "Path": "SFX/MyDialogue_10C4C929.wem"
        }
       ]
      },
@@ -219,14 +219,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UIs\\Shoot_Heart",
       "GUID": "{73D013CE-7B6D-42FC-AC93-C24687E05DFB}",
       "DurationType": "OneShot",
-      "DurationMin": "2.",
-      "DurationMax": "2.",
+      "DurationMin": "0.724921",
+      "DurationMax": "0.724921",
       "IncludedMemoryFiles": [
        {
-        "Id": "288415330",
+        "Id": "820383191",
         "Language": "SFX",
-        "ShortName": "heartShoot.wav",
-        "Path": "SFX/heartShoot_10C4C929.wem"
+        "ShortName": "ShootHeart.wav",
+        "Path": "SFX/ShootHeart_10C4C929.wem"
        }
       ]
      },
