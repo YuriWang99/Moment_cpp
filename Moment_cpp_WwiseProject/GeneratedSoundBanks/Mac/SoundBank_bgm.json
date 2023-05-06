@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "697418314",
+    "Hash": "1760052890",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -57,6 +57,57 @@
         "Language": "SFX",
         "ShortName": "TheMoment_Static_v1_FULLMIX_demo.wav",
         "Path": "SFX/TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3662290070",
+      "Name": "CancelInLove",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\CancelInLove",
+      "GUID": "{D611F5E2-1021-4ED0-A55E-DDA8DBF5FF1D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "288415330",
+        "Language": "SFX",
+        "ShortName": "heartShoot.wav",
+        "Path": "SFX/heartShoot_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3356391884",
+      "Name": "FallInLoveSFX",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\FallInLoveSFX",
+      "GUID": "{406C7581-AF74-4D35-B720-D58ED4C13D16}",
+      "DurationType": "OneShot",
+      "DurationMin": "51.163967",
+      "DurationMax": "51.163967",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "627168718",
+        "Language": "SFX",
+        "ShortName": "FallInLoveSFX.wav",
+        "Path": "SFX/FallInLoveSFX_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2317248900",
+      "Name": "PlayerDialogue",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\PlayerDialogue",
+      "GUID": "{D6464A6C-CD00-4340-8445-3C002EE6979C}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "823127824",
+        "Language": "SFX",
+        "ShortName": "MyDialogue.wav",
+        "Path": "SFX/MyDialogue_10C4C929.wem"
        }
       ]
      },
@@ -151,14 +202,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SheartExplosion",
       "GUID": "{1C65A72F-4705-4CC5-89BA-7EECA7019CDA}",
       "DurationType": "OneShot",
-      "DurationMin": "2.",
-      "DurationMax": "2.",
+      "DurationMin": "51.163967",
+      "DurationMax": "51.163967",
       "IncludedMemoryFiles": [
        {
-        "Id": "493800215",
+        "Id": "785318808",
         "Language": "SFX",
-        "ShortName": "heartBroken.wav",
-        "Path": "SFX/heartBroken_10C4C929.wem"
+        "ShortName": "SHeartExplode.wav",
+        "Path": "SFX/SHeartExplode_10C4C929.wem"
        }
       ]
      },
@@ -168,14 +219,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UIs\\Shoot_Heart",
       "GUID": "{73D013CE-7B6D-42FC-AC93-C24687E05DFB}",
       "DurationType": "OneShot",
-      "DurationMin": "2.",
-      "DurationMax": "2.",
+      "DurationMin": "0.724921",
+      "DurationMax": "0.724921",
       "IncludedMemoryFiles": [
        {
-        "Id": "288415330",
+        "Id": "820383191",
         "Language": "SFX",
-        "ShortName": "heartShoot.wav",
-        "Path": "SFX/heartShoot_10C4C929.wem"
+        "ShortName": "ShootHeart.wav",
+        "Path": "SFX/ShootHeart_10C4C929.wem"
        }
       ]
      },
@@ -185,14 +236,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SubtitleEnd",
       "GUID": "{5EB54B85-9A8C-42E9-8514-E8DDB15512E9}",
       "DurationType": "OneShot",
-      "DurationMin": "2.",
-      "DurationMax": "2.",
+      "DurationMin": "0.878322",
+      "DurationMax": "0.878322",
       "IncludedMemoryFiles": [
        {
-        "Id": "414890874",
+        "Id": "92707837",
         "Language": "SFX",
-        "ShortName": "NextLine.wav",
-        "Path": "SFX/NextLine_10C4C929.wem"
+        "ShortName": "SobjectInteract.wav",
+        "Path": "SFX/SobjectInteract_10C4C929.wem"
        }
       ]
      },
