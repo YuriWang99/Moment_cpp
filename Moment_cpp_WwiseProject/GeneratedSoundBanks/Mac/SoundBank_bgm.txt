@@ -1,8 +1,10 @@
 Event	ID	Name			Wwise Object Path	Notes
 	148697475	SUnlockNewNPC			\Default Work Unit\UIs\SUnlockNewNPC	
 	412724365	BGM			\Default Work Unit\BGM	
+	747916317	EmojiChange			\Default Work Unit\UIs\EmojiChange	
 	1150639503	S_SwitchHoldTriggered			\Default Work Unit\UIs\S_SwitchHoldTriggered	
 	1260799209	SConfirmObject			\Default Work Unit\UIs\SConfirmObject	
+	1498426771	SObjectInteract			\Default Work Unit\UIs\SObjectInteract	
 	2116061669	SFirstTaskWin			\Default Work Unit\UIs\SFirstTaskWin	
 	2317248900	PlayerDialogue			\Default Work Unit\UIs\PlayerDialogue	
 	2584713319	SCancelConfirmObject			\Default Work Unit\UIs\SCancelConfirmObject	
@@ -86,6 +88,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	1044855925	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	304647	EmojiChange	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\EmojiChange		352864
 	92707837	SubtitleEnd	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\SobjectInteract_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleEnd		155000
 	129242008	Me	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Anxiety_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		6144144
 	141531934	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		6912144

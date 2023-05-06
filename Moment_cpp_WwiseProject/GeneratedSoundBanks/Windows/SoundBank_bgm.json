@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "1760052890",
+    "Hash": "244762352",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -74,6 +74,23 @@
         "Language": "SFX",
         "ShortName": "heartShoot.wav",
         "Path": "SFX/heartShoot_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "747916317",
+      "Name": "EmojiChange",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\EmojiChange",
+      "GUID": "{7AB5775A-FE29-48D7-AE46-D2EB61B27C4D}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.",
+      "DurationMax": "2.",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "304647",
+        "Language": "SFX",
+        "ShortName": "Confirm.wav",
+        "Path": "SFX/Confirm_10C4C929.wem"
        }
       ]
      },
@@ -227,6 +244,23 @@
         "Language": "SFX",
         "ShortName": "ShootHeart.wav",
         "Path": "SFX/ShootHeart_10C4C929.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1498426771",
+      "Name": "SObjectInteract",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\SObjectInteract",
+      "GUID": "{E8178D5B-32D3-438E-887E-140DC74F22D4}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.878322",
+      "DurationMax": "0.878322",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "92707837",
+        "Language": "SFX",
+        "ShortName": "SobjectInteract.wav",
+        "Path": "SFX/SobjectInteract_10C4C929.wem"
        }
       ]
      },
