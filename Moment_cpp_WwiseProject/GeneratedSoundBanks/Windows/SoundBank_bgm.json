@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "244762352",
+    "Hash": "3390882042",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -29,34 +29,70 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "129242008",
+        "Id": "29637802",
         "Language": "SFX",
-        "ShortName": "TheMoment_Anxiety_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Anxiety_v1_FULLMIX_demo_D79FB2B7.wem"
+        "ShortName": "MS_TM_MainTheme_Yourself_NoPiano_v1.wav",
+        "Path": "SFX/MS_TM_MainTheme_Yourself_NoPiano_v1_D79FB2B7.wem"
        },
        {
-        "Id": "141531934",
+        "Id": "84898412",
         "Language": "SFX",
-        "ShortName": "TheMoment_Beach_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character6_Boss_v1.wav",
+        "Path": "SFX/MS_TM_Character6_Boss_v1_D79FB2B7.wem"
        },
        {
-        "Id": "597012795",
+        "Id": "228599312",
         "Language": "SFX",
-        "ShortName": "LikeABoss.wav",
-        "Path": "SFX/LikeABoss_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character4_BadWorker_v1.wav",
+        "Path": "SFX/MS_TM_Character4_BadWorker_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "393071403",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character3_AceWorker_State1_v1.wav",
+        "Path": "SFX/MS_TM_Character3_AceWorker_State1_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "423268588",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character5_BoringWorker_v1.wav",
+        "Path": "SFX/MS_TM_Character5_BoringWorker_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "450796142",
+        "Language": "SFX",
+        "ShortName": "MS_TM_MainTheme_Yourself_PianoLayer_v1.wav",
+        "Path": "SFX/MS_TM_MainTheme_Yourself_PianoLayer_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "521070219",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character1_Duck_v1.wav",
+        "Path": "SFX/MS_TM_Character1_Duck_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "653403502",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character3_AceWorker_State2_v1.wav",
+        "Path": "SFX/MS_TM_Character3_AceWorker_State2_v1_D79FB2B7.wem"
+       },
+       {
+        "Id": "707091727",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character2_Turtle_v1.wav",
+        "Path": "SFX/MS_TM_Character2_Turtle_v1_D79FB2B7.wem"
        },
        {
         "Id": "877525911",
         "Language": "SFX",
         "ShortName": "TheMoment_Beach_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_10C4C929.wem"
+        "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem"
        },
        {
-        "Id": "1027439445",
+        "Id": "1052970749",
         "Language": "SFX",
-        "ShortName": "TheMoment_Static_v1_FULLMIX_demo.wav",
-        "Path": "SFX/TheMoment_Static_v1_FULLMIX_demo_D79FB2B7.wem"
+        "ShortName": "MS_TM_Romance_v1.wav",
+        "Path": "SFX/MS_TM_Romance_v1_D79FB2B7.wem"
        }
       ]
      },
