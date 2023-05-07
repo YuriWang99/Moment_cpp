@@ -5,6 +5,12 @@
   "BasePlatform": "Mac",
   "Plugins": [
    {
+    "Name": "Wwise Parametric EQ",
+    "ID": "6881283",
+    "DLL": "AkParametricEQ",
+    "StaticLib": "AkParametricEQFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },
