@@ -7,8 +7,11 @@ State	ID	Name	State Group			Notes
 	1560169506	Boss	BGM			
 	1685527059	Me	BGM			
 	2054980567	Turtle	BGM			
+	2229554814	AceBlue	BGM			
+	2428788488	Romance	BGM			
 	3205888596	Badworker	BGM			
 	3444895012	BoringWorker	BGM			
+	3705726509	Title	BGM			
 	4011820636	Aceworker	BGM			
 	4075332698	Beach	BGM			
 
