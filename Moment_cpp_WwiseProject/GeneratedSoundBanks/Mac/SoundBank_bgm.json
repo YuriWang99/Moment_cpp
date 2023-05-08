@@ -16,7 +16,7 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "1393187660",
+    "Hash": "3150473506",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
@@ -46,58 +46,52 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "29637802",
+        "Id": "75128335",
         "Language": "SFX",
-        "ShortName": "MS_TM_MainTheme_Yourself_NoPiano_v1.wav",
-        "Path": "SFX/MS_TM_MainTheme_Yourself_NoPiano_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character1_Duck_v2.wav",
+        "Path": "SFX/MS_TM_Character1_Duck_v2_D79FB2B7.wem"
        },
        {
-        "Id": "84898412",
+        "Id": "281639001",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character6_Boss_v1.wav",
-        "Path": "SFX/MS_TM_Character6_Boss_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_MainTheme_Yourself_NoPiano_v2.wav",
+        "Path": "SFX/MS_TM_MainTheme_Yourself_NoPiano_v2_D79FB2B7.wem"
        },
        {
-        "Id": "228599312",
+        "Id": "351514153",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character4_BadWorker_v1.wav",
-        "Path": "SFX/MS_TM_Character4_BadWorker_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character3_AceWorker_State2_v2.wav",
+        "Path": "SFX/MS_TM_Character3_AceWorker_State2_v2_D79FB2B7.wem"
        },
        {
-        "Id": "393071403",
+        "Id": "377957581",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character3_AceWorker_State1_v1.wav",
-        "Path": "SFX/MS_TM_Character3_AceWorker_State1_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character6_Boss_v2.wav",
+        "Path": "SFX/MS_TM_Character6_Boss_v2_D79FB2B7.wem"
        },
        {
-        "Id": "423268588",
+        "Id": "489678162",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character5_BoringWorker_v1.wav",
-        "Path": "SFX/MS_TM_Character5_BoringWorker_v1_D79FB2B7.wem"
+        "ShortName": "ace.wav",
+        "Path": "SFX/ace_D79FB2B7.wem"
        },
        {
-        "Id": "450796142",
+        "Id": "525853720",
         "Language": "SFX",
-        "ShortName": "MS_TM_MainTheme_Yourself_PianoLayer_v1.wav",
-        "Path": "SFX/MS_TM_MainTheme_Yourself_PianoLayer_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character5_BoringWorker_v2.wav",
+        "Path": "SFX/MS_TM_Character5_BoringWorker_v2_D79FB2B7.wem"
        },
        {
-        "Id": "521070219",
+        "Id": "714486163",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character1_Duck_v1.wav",
-        "Path": "SFX/MS_TM_Character1_Duck_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Character2_Turtle_v2.wav",
+        "Path": "SFX/MS_TM_Character2_Turtle_v2_D79FB2B7.wem"
        },
        {
-        "Id": "653403502",
+        "Id": "826582664",
         "Language": "SFX",
-        "ShortName": "MS_TM_Character3_AceWorker_State2_v1.wav",
-        "Path": "SFX/MS_TM_Character3_AceWorker_State2_v1_D79FB2B7.wem"
-       },
-       {
-        "Id": "707091727",
-        "Language": "SFX",
-        "ShortName": "MS_TM_Character2_Turtle_v1.wav",
-        "Path": "SFX/MS_TM_Character2_Turtle_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_MainTheme_Yourself_PianoLayer_v2.wav",
+        "Path": "SFX/MS_TM_MainTheme_Yourself_PianoLayer_v2_D79FB2B7.wem"
        },
        {
         "Id": "877525911",
@@ -106,10 +100,16 @@
         "Path": "SFX/TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem"
        },
        {
-        "Id": "1052970749",
+        "Id": "921788330",
         "Language": "SFX",
-        "ShortName": "MS_TM_Romance_v1.wav",
-        "Path": "SFX/MS_TM_Romance_v1_D79FB2B7.wem"
+        "ShortName": "MS_TM_Romance_v2.wav",
+        "Path": "SFX/MS_TM_Romance_v2_D79FB2B7.wem"
+       },
+       {
+        "Id": "1047655059",
+        "Language": "SFX",
+        "ShortName": "MS_TM_Character4_BadWorker_v2.wav",
+        "Path": "SFX/MS_TM_Character4_BadWorker_v2_D79FB2B7.wem"
        }
       ]
      },

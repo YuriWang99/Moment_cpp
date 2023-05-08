@@ -152,29 +152,29 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	304647	EmojiChange	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\EmojiChange		352864
-	29637802	Title	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_NoPiano_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		13056144
-	84898412	Boss	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character6_Boss_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		13056144
+	75128335	Duck	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character1_Duck_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		12288144
 	92707837	SubtitleEnd	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SobjectInteract_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleEnd		155000
-	228599312	Bad	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character4_BadWorker_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		13056144
+	281639001	Title	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_NoPiano_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		12288144
 	288415330	CancelInLove	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\heartShoot_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\CancelInLove		352864
-	393071403	Ace	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character3_AceWorker_State1_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		13056144
+	351514153	AceBlue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character3_AceWorker_State2_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		12288144
+	377957581	Boss	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character6_Boss_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		12288144
 	414890874	SubtitleNextLine	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\NextLine_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleNextLine		352864
-	423268588	Boring	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character5_BoringWorker_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		13056144
-	450796142	Me	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_PianoLayer_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		13056144
+	489678162	Ace	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\ace_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		11832232
 	513274941	SCancelConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\select2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCancelConfirmObject		352864
-	521070219	Duck	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character1_Duck_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		13056144
 	521902732	SUnlockNewNPC	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\UnlockAvatar_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SUnlockNewNPC		352864
+	525853720	Boring	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character5_BoringWorker_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		12288144
 	627168718	FallInLoveSFX	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\FallInLoveSFX_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\FallInLoveSFX		9025388
-	653403502	AceBlue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character3_AceWorker_State2_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		13056144
-	707091727	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character2_Turtle_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		13056144
+	714486163	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character2_Turtle_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		12288144
 	785318808	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SHeartExplode_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		9025388
 	785491875	S_SwitchHoldTriggered	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Hold_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\S_SwitchHoldTriggered		352864
 	785532407	Aiyue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Aiyue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Aiyue		1097464
 	802289686	SCurrentMood	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MoodChangHint_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCurrentMood		352864
 	820383191	Shoot_Heart	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\ShootHeart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\Shoot_Heart		64002
 	823127824	PlayerDialogue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MyDialogue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\PlayerDialogue		352864
+	826582664	Me	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_PianoLayer_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		12288144
 	877525911	Beach	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\TheMoment_Beach_v1_FULLMIX_demo_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		6912144
+	921788330	Romance	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Romance_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		12288144
 	966922745	SConfirmObject	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SConfirmObject		352864
 	994354103	SFirstTaskWin	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Complete_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SFirstTaskWin		352864
-	1052970749	Romance	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Romance_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		13056144
+	1047655059	Bad	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character4_BadWorker_v2_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		12288144
 
