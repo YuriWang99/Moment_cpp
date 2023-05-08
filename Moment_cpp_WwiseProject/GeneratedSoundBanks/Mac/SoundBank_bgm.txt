@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3356391884	FallInLoveSFX			\Default Work Unit\UIs\FallInLoveSFX	
 	3655005168	SubtitleEnd			\Default Work Unit\UIs\SubtitleEnd	
 	3662290070	CancelInLove			\Default Work Unit\UIs\CancelInLove	
+	3692656666	Aiyue			\Default Work Unit\UIs\Aiyue	
 	3802711454	SCurrentMood			\Default Work Unit\UIs\SCurrentMood	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -168,6 +169,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	707091727	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\MS_TM_Character2_Turtle_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		13056144
 	785318808	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\SHeartExplode_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		9025388
 	785491875	S_SwitchHoldTriggered	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Hold_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\S_SwitchHoldTriggered		352864
+	785532407	Aiyue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\Aiyue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Aiyue		1097464
 	802289686	SCurrentMood	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\MoodChangHint_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCurrentMood		352864
 	820383191	Shoot_Heart	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\ShootHeart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\Shoot_Heart		64002
 	823127824	PlayerDialogue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Mac\SFX\MyDialogue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\PlayerDialogue		352864
