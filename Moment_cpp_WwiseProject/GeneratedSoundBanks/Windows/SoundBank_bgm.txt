@@ -14,6 +14,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3356391884	FallInLoveSFX			\Default Work Unit\UIs\FallInLoveSFX	
 	3655005168	SubtitleEnd			\Default Work Unit\UIs\SubtitleEnd	
 	3662290070	CancelInLove			\Default Work Unit\UIs\CancelInLove	
+	3692656666	Aiyue			\Default Work Unit\UIs\Aiyue	
 	3802711454	SCurrentMood			\Default Work Unit\UIs\SCurrentMood	
 
 State Group	ID	Name			Wwise Object Path	Notes
@@ -34,7 +35,7 @@ State	ID	Name	State Group			Notes
 	4075332698	Beach	BGM			
 
 Custom State	ID	Name	State Group	Owner		Notes
-	3200937	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	3200937	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	7230744	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	13000692	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	13402007	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
@@ -42,9 +43,10 @@ Custom State	ID	Name	State Group	Owner		Notes
 	32652728	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	66061189	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
 	68734294	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
-	88276689	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	88276689	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	90260167	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	104074198	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
+	111982885	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boring		
 	113390493	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	140257007	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 	149383327	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
@@ -56,7 +58,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	196315383	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	229751293	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	243450797	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	243566525	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	243566525	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	250487993	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
 	259727966	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 	267548419	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
@@ -64,14 +66,17 @@ Custom State	ID	Name	State Group	Owner		Notes
 	281961749	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
 	298723686	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	334402019	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
+	342444614	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
 	359748977	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
-	359989747	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	359989747	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	366197936	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
-	376081253	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	376081253	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
+	393064783	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
 	397576312	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 	414956735	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
 	430515300	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	436165119	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
+	457779604	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	480533804	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	488357649	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
 	497758508	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
@@ -90,12 +95,13 @@ Custom State	ID	Name	State Group	Owner		Notes
 	586466178	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
 	589427913	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	592182621	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	595434287	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	595434287	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	603611408	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	608467765	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
-	615087596	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	608467765	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
+	615087596	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	617766263	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
-	631897900	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	631633992	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
+	631897900	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	655464998	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
 	659186028	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
 	667838271	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
@@ -109,6 +115,7 @@ Custom State	ID	Name	State Group	Owner		Notes
 	717971659	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	725627702	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	729529471	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Beach		
+	745777966	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	747194526	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
 	748197319	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	763938213	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
@@ -120,14 +127,17 @@ Custom State	ID	Name	State Group	Owner		Notes
 	806205592	Beach	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	809015386	BoringWorker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	828913202	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Me		
-	831242365	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		
+	831242365	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		
 	842005668	Badworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	852140820	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	861979883	Aceworker	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		
 	889805530	Me	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
 	910687751	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Duck		
 	920839782	Romance	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
+	921679598	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		
+	942810489	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	978436477	ToyDuck	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
+	980007475	Title	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\AceBlue		
 	983217119	Boss	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Romance		
 	989754452	AceBlue	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Ace		
 	1004586138	Turtle	BGM	\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		
@@ -142,7 +152,7 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	304647	EmojiChange	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Confirm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\EmojiChange		352864
-	29637802	Title_Main	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_NoPiano_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title_Main		13056144
+	29637802	Title	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_MainTheme_Yourself_NoPiano_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Title		13056144
 	84898412	Boss	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character6_Boss_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Boss		13056144
 	92707837	SubtitleEnd	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SobjectInteract_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SubtitleEnd		155000
 	228599312	Bad	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character4_BadWorker_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Bad		13056144
@@ -159,6 +169,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	707091727	Turtle	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MS_TM_Character2_Turtle_v1_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Turtle		13056144
 	785318808	SheartExplosion	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\SHeartExplode_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SheartExplosion		9025388
 	785491875	S_SwitchHoldTriggered	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Hold_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\S_SwitchHoldTriggered		352864
+	785532407	Aiyue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\Aiyue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BGM\Aiyue		1097464
 	802289686	SCurrentMood	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MoodChangHint_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\SCurrentMood		352864
 	820383191	Shoot_Heart	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\ShootHeart_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\Shoot_Heart		64002
 	823127824	PlayerDialogue	Y:\Documents\GitHub\Moment_cpp\Moment_cpp_WwiseProject\.cache\Windows\SFX\MyDialogue_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UIs\PlayerDialogue		352864

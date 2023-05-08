@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BFF162B5-B5F1-4EDC-8770-9AF2BB28D752}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{BFF162B5-B5F1-4EDC-8770-9AF2BB28D752}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BFF162B5-B5F1-4EDC-8770-9AF2BB28D752}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="BadWorker" ID="{2C0450F5-EC83-41F2-9230-253AD5D42836}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="404"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="289"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="404"/>
+						<Property Name="OutputLevel" Type="Real32" Value="2.5"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="BadWorker1" ID="{4B631504-F6DD-4C88-95EF-97E4024D5DF5}" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+					<PropertyList>
+						<Property Name="FrequencyBand1" Type="Real32" Value="849"/>
+						<Property Name="FrequencyBand2" Type="Real32" Value="792"/>
+						<Property Name="FrequencyBand3" Type="Real32" Value="749"/>
+						<Property Name="OnOffBand1" Type="bool" Value="False"/>
+						<Property Name="OnOffBand2" Type="bool" Value="False"/>
+						<Property Name="OnOffBand3" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

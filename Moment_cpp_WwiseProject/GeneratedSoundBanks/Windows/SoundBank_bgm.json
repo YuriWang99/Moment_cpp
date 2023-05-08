@@ -16,11 +16,28 @@
     "Id": "2043057619",
     "GUID": "{186D94CF-69D3-4D6C-AF08-3931867F49FE}",
     "Language": "SFX",
-    "Hash": "3390882042",
+    "Hash": "1393187660",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SoundBank_bgm",
     "ShortName": "SoundBank_bgm",
     "Path": "SoundBank_bgm.bnk",
     "IncludedEvents": [
+     {
+      "Id": "3692656666",
+      "Name": "Aiyue",
+      "ObjectPath": "\\Events\\Default Work Unit\\UIs\\Aiyue",
+      "GUID": "{C74F9A43-B179-4FB0-8839-2BBE206F75B5}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.221088",
+      "DurationMax": "6.221088",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "785532407",
+        "Language": "SFX",
+        "ShortName": "Aiyue.wav",
+        "Path": "SFX/Aiyue_10C4C929.wem"
+       }
+      ]
+     },
      {
       "Id": "412724365",
       "Name": "BGM",
