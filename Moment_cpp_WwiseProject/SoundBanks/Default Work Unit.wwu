@@ -22,6 +22,7 @@
 						<ObjectRef Name="BGM" ID="{D13FAAB8-78B2-4EC5-8FCD-6A8FC1805828}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CancelInLove" ID="{D611F5E2-1021-4ED0-A55E-DDA8DBF5FF1D}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFirstTaskWin" ID="{FDE32EF4-B998-4F13-9606-EE00ADA538CD}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Aiyue" ID="{C74F9A43-B179-4FB0-8839-2BBE206F75B5}" WorkUnitID="{5B6B72E1-1462-446B-97C3-69F9D10F9E98}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
